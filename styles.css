@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#body {
+  background: #11044d;
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+}
+nav {
+  background: transparent !important;
+  color: white;
+}
+.navbar-brand {
+  margin-right: 0;
+}
+.navbar-toggler {
+  background: white;
+}
+.nav-item .nav-link {
+  color: white !important;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 50%;
+}
+.logo_name {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 2rem;
+}
+.logo_name p {
+  margin: 0;
+}
+
+.searchBox {
+  /* background:#17036d; */
+  border: none;
+  border-radius: 15px;
+  position: relative;
+}
+.inputBox {
+  border: none;
+  border-radius: 15px;
+  padding-left: 30px;
+  background: #17036d;
+  padding: 5px 30px;
+}
+.button_search {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  color: white;
+}
+.button_search i {
+  left: 2;
+  top: 2;
+}
+
+/* // content  */
+
+.mainContent {
+  display: flex;
+  padding: 1rem 0.2rem;
+  width: 100%;
+}
+
+.cardBox {
+  width: calc(100%- 800px);
+  background: green;
+}
+.card {
+  background: #17036d !important;
+  position: relative;
+  margin: 1rem 2rem;
+}
+
+.card img {
+  width: 50%;
+  border-radius: 0;
+}
+.card .card-body {
+  padding: 30px 20px;
+}
+.card .Name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card .followers {
+  position: absolute;
+  right: 3px;
+  top: 30px;
+}
+.button {
+  margin: 20px 0;
+}
+.button button {
+  display: inline-flex;
+  padding: 5px 40px;
+  background: linear-gradient(blue, purple);
+  border: none;
+  color: white;
+  margin-right: 35px;
+}
+.button .follow {
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.aside {
+  width: 800px;
+  background: red;
+}
